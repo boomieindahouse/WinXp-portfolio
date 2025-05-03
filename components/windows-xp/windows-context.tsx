@@ -137,7 +137,7 @@ export const WindowsProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
     addWindow({
       title: folderName,
-      icon: "/windows-xp/icons/folder.png",
+      icon: "/icons/foldersm.png",
       component: "FolderView",
       width: 600,
       height: 400,
@@ -153,7 +153,7 @@ export const WindowsProvider: React.FC<{ children: React.ReactNode }> = ({ child
     const fileWindows: Record<string, any> = {
       image: {
         title: item.name,
-        icon: "/windows-xp/icons/image.png",
+        icon: "/icons/gallery.png",
         component: "ImageView",
         width: 700,
         height: 500,
@@ -165,7 +165,7 @@ export const WindowsProvider: React.FC<{ children: React.ReactNode }> = ({ child
       },
       pdf: {
         title: item.name,
-        icon: "/windows-xp/icons/pdf.png",
+        icon: "/icons/iepdf.png",
         component: "PdfView",
         width: 800,
         height: 600,
@@ -177,7 +177,7 @@ export const WindowsProvider: React.FC<{ children: React.ReactNode }> = ({ child
       },
       project: {
         title: item.name,
-        icon: "/windows-xp/icons/application.png",
+        icon: "/icons/projectsmall.png",
         component: "ProjectView",
         width: 800,
         height: 600,
@@ -189,7 +189,7 @@ export const WindowsProvider: React.FC<{ children: React.ReactNode }> = ({ child
       },
       text: {
         title: item.name,
-        icon: "/windows-xp/icons/text.png",
+        icon: "/icons/notepadsmall.png",
         component: "TextView",
         width: 600,
         height: 400,

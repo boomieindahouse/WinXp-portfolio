@@ -73,6 +73,18 @@ const Taskbar = () => {
               />
             </div>
           </button>
+
+          <button className="w-7 h-7 flex items-center justify-center rounded hover:bg-[#5a96ee]">
+            <div className="relative w-5 h-5">
+              <Image
+                src="/icons/projectsmall.png"
+                alt="Internet Explorer"
+                fill
+                sizes="20px"
+                className="object-contain"
+              />
+            </div>
+          </button>
         </div>
         
         {/* Task Buttons */}

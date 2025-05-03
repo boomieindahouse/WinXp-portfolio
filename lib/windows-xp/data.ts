@@ -62,7 +62,7 @@ export const portfolioData: PortfolioItem[] = [
     id: "projects-folder",
     name: "Projects",
     type: "folder",
-    iconPath: "/windows-xp/icons/projects.png",
+    iconPath: "/icons/project.png",
     children: [
       {
         id: "project-1",
@@ -199,7 +199,7 @@ export const portfolioData: PortfolioItem[] = [
         url: "https://example.com/taskmanager"
       },
       {
-        id: "project-3",
+        id: "project-9",
         name: "Portfolio v.2",
         type: "project",
         iconPath: "/icons/projectdoc.png",
@@ -221,7 +221,7 @@ export const portfolioData: PortfolioItem[] = [
     id: "about-me-folder",
     name: "About Me",
     type: "folder",
-    iconPath: "/windows-xp/icons/about.png",
+    iconPath: "/icons/agent.png",
     children: [
       {
         id: "bio",
@@ -257,7 +257,7 @@ export const portfolioData: PortfolioItem[] = [
     id: "gallery-folder",
     name: "Image Gallery",
     type: "folder",
-    iconPath: "/windows-xp/icons/folder.png",
+    iconPath: "/icons/gallery.png",
     children: [
       {
         id: "image-1",
@@ -286,14 +286,14 @@ export const portfolioData: PortfolioItem[] = [
     id: "resume-file",
     name: "Resume",
     type: "pdf",
-    iconPath: "/windows-xp/icons/pdf.png",
+    iconPath: "/icons/iepdf.png",
     url: "https://example.com/resume.pdf"
   },
   {
     id: "contact-info",
     name: "Contact Info.txt",
     type: "text",
-    iconPath: "/windows-xp/icons/text.png",
+    iconPath: "/icons/contact.png",
     text: "Contact Information:\n\nEmail: developer@example.com\nPhone: (123) 456-7890\n\nSocial Media:\n- LinkedIn: linkedin.com/in/developer\n- GitHub: github.com/developer\n- Twitter: @developer\n\nPlease feel free to reach out with any inquiries about projects, collaborations, or job opportunities."
   }
 ];
