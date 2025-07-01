@@ -149,7 +149,7 @@ export const portfolioData: PortfolioItem[] = [
       },
       {
         id: "project-6",
-        name: "Chuaykaii",
+        name: "Chuaykai",
         type: "project",
         iconPath: "/icons/projectdoc.png",
         image: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg",
